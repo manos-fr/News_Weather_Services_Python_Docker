@@ -1,0 +1,12 @@
+FROM python:3.8-slim-buster
+
+# Install dependencies:
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+EXPOSE 3003
+
+COPY news.py .
+
+# Run the application:
+CMD python news.py
