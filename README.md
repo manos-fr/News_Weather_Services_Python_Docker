@@ -34,5 +34,5 @@ curl -XGET "localhost:3001/news?country=gb"
 
 - Architecture Overview
 ```
-![Screenshot](Screenshot_1.jpg)
+![Architecture](../master/(Screenshot_1.jpg)
 ```
