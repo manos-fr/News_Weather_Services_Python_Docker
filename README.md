@@ -31,3 +31,8 @@ curl -XGET "localhost:3001/news?country=gb"
 
   pip install -r requirements.txt (Install Dependencies)
 ```
+
+- Architecture Overview
+```
+![Screenshot](Screenshot_1.jpg)
+```
