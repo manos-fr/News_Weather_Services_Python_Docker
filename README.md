@@ -34,4 +34,4 @@ curl -XGET "localhost:3001/news?country=gb"
 
 - Architecture Overview
 
-![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/Screenshot_1.jpg?raw=true)
+![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/files/Screenshot_1.jpg?raw=true)
