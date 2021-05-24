@@ -11,7 +11,7 @@
 ### Docker
 ```
 - Start the Docker daemon (if needed)
-  $ sudo systemctl start docker.
+  $ sudo systemctl start docker. or sudo service docker start
 
 docker-compose up --build (to run)
 
