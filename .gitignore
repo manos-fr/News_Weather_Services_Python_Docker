@@ -9,4 +9,6 @@
 [Ss]cripts
 pyvenv.cfg
 .venv
+/python-venv
+/Kakarakis_Manos_Microservices_using_Docker_with_Python.pptx
 pip-selfcheck.json

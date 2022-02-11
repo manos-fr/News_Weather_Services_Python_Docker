@@ -1,6 +1,7 @@
 # python_service
 
 - Install Docker Engine & Docker Compose
+
 ```
   $ sudo apt-get update
   $ sudo apt-get install docker-ce docker-ce-cli containerd.io
@@ -8,7 +9,9 @@
   $ sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
   $ sudo chmod +x /usr/local/bin/docker-compose
 ```
+
 ### Docker
+
 ```
 - Start the Docker daemon (if needed)
   $ sudo systemctl start docker. or sudo service docker start
@@ -21,11 +24,14 @@ docker-compose up --build --scale (a_service=x) (to create multiple instances of
 ```
 
 - Sample http requests
+
 ```
 curl -XGET "localhost:3001/weather?city=athens"
 curl -XGET "localhost:3001/news?country=gb"
 ```
+
 - To run client_weather_news_app.py
+
 ```
   source bin/activate (Activate virtual env)
 
