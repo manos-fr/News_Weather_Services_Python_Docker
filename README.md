@@ -1,4 +1,4 @@
-# python_service
+# Python Flask - Nginx microservices with Docker
 
 - Install Docker Engine & Docker Compose
 
@@ -13,31 +13,22 @@
 ### Docker
 
 ```
-- Start the Docker daemon (if needed)
-  $ sudo systemctl start docker. or sudo service docker start
+- Start the Docker daemon (if needed), or desktop app in Windows
+$ sudo systemctl start docker. or sudo service docker start
 
-docker-compose up --build (to run)
+docker-compose up --build --scale master=2 to create 2 mainApis(servers) and use Nginx's load balancer
 
 docker-compose down (to kill and stop docker images)
 
-docker-compose up --build --scale (a_service=x) (to create multiple instances of a service)
 ```
 
-- Sample http requests
+- Sample http requests in terminal
 
 ```
-curl -XGET "localhost:3001/weather?city=athens"
-curl -XGET "localhost:3001/news?country=gb"
+curl -XGET "localhost/weather?city=athens"
+curl -XGET "localhost/news?country=gb"
 ```
 
-- To run client_weather_news_app.py
-
-```
-  source bin/activate (Activate virtual env)
-
-  pip install -r requirements.txt (Install Dependencies)
-```
-
-- Architecture Overview
+- Architecture Overview <Outdated: Added nginx between client and main Api>
 
 ![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/files/Screenshot_1.jpg?raw=true)
