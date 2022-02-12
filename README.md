@@ -31,4 +31,4 @@ curl -XGET "localhost/news?country=gb"
 
 - Architecture Overview \*Update: Added nginx between client and main Api
 
-![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/files/Screenshot_1.jpg?raw=true)
+![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/files/architecture.png?raw=true)
