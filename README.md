@@ -29,6 +29,6 @@ curl -XGET "localhost/weather?city=athens"
 curl -XGET "localhost/news?country=gb"
 ```
 
-- Architecture Overview <Outdated: Added nginx between client and main Api>
+- Architecture Overview \*Outdated: Added nginx between client and main Api\_
 
 ![Arch](https://github.com/manos-fr/News_Weather_Services_Python_Docker/blob/master/files/Screenshot_1.jpg?raw=true)
