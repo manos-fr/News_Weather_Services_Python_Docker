@@ -1,5 +1,9 @@
 # Python Flask - Nginx microservices with Docker
 
+#### <i>For a detailed step by step guide check my post at Medium</i>
+https://medium.com/@manos_fr/python-flask-scalable-microservices-using-docker-compose-and-nginx-load-balancer-e20d421b1ad6
+
+
 - Install Docker Engine & Docker Compose
 
 ```
